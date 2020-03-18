@@ -3,7 +3,7 @@
 # Line indentation must be 2 spaces (no tabs).
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   database: redmine
   host: localhost
   username: root
@@ -12,7 +12,7 @@ production:
   encoding: utf8mb4
 
 development:
-  adapter: mysql2
+  adapter: postgresql
   database: redmine_development
   host: localhost
   username: root
